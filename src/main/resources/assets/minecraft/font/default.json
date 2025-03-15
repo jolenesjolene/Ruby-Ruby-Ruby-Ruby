@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "rubyrubyrubyruby:item/ruby.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\uE000"]
+        }
+    ]
+}

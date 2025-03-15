@@ -1,0 +1,2 @@
+execute store result score @s Value run clear @s rubyrubyrubyruby:ruby 0
+title @s actionbar [{"text":"                                       "},{"score":{"name":"@s","objective":"Value"}},{"text":"\uE000"}]
