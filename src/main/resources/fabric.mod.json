@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rubyrubyrubyruby",
+	"version": "${version}",
+	"name": "Ruby Ruby Ruby Ruby",
+	"description": "A lil' mod that adds a vanilla styled currency system to the game, that prioritises aesthetics over functionality.",
+	"authors": [
+		"Jolene <3"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/ruby-ruby-ruby-ruby!",
+		"sources": "https://github.com/jolenesjolene/Ruby-Ruby-Ruby-Ruby"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rubyrubyrubyruby/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jolene.rubyrubyrubyruby.RubyRubyRubyRuby"
+		],
+		"fabric-datagen": [
+			"net.jolene.rubyrubyrubyruby.RubyRubyRubyRubyDataGenerator"
+		],
+		"client": [
+			"net.jolene.rubyrubyrubyruby.RubyRubyRubyRubyClient"
+		]
+	},
+	"mixins": [
+		"rubyrubyrubyruby.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
